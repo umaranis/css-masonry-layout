@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 2px;
+    width: 480px;
+}
+
+.item {
+    color: #ffffff;
+    background-color: #ff00d9;    
+    padding: 5px;
+    width: 150px;    
+    border-radius: 15px;        
+    font-size: x-large;      
+}

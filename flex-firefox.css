@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;                
+}
+
+.container > :nth-child(3n + 1) { order: 1; } /* 1st column */
+.container > :nth-child(3n + 2) { order: 2; } /* 2nd column */
+.container > :nth-child(3n + 3) { order: 3; } /* 3rd column */
+
+.container > :nth-child(-n + 3) {
+    page-break-before: always; /* CSS 2.1 syntax */
+    break-before: always;  /* New syntax */
+}
+
+
+.item {
+    color: #ffffff;
+    background-color: #ff00d9;
+    padding: 5px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: x-large;
+    margin: 1px;
+}

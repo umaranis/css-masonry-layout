@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+    height: 500px;
+}
+
+.item {
+    color: #ffffff;
+    background-color: #ff00d9;
+    padding: 5px;
+    width: 150px;
+    border-radius: 15px;
+    font-size: x-large;
+    margin: 1px;
+}

@@ -1,0 +1,16 @@
+.container {                
+    column-count: 3;
+    column-gap: 10px;
+    width: 480px;
+}        
+
+.item {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #ff00d9;    
+    padding: 5px;
+    width: 150px;
+    margin: 1px 0;
+    border-radius: 15px;    
+    font-size: x-large;   
+}
